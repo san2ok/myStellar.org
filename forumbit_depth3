@@ -1,0 +1,1 @@
+<li>{$statusicon}<a href="forumdisplay.php?fid={$forum['fid']}" title="{$forum_viewers_text_plain}">{$forum['name']}</a></li>
