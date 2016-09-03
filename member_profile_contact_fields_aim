@@ -1,0 +1,4 @@
+<tr>
+	<td class="{$bgcolors['aim']}"><strong>{$lang->aim_screenname}</strong></td>
+	<td class="{$bgcolors['aim']}"><a href="javascript:;" onclick="MyBB.popupWindow('/misc.php?action=imcenter&amp;imtype=aim&amp;uid={$uid}&amp;modal=1'); return false;">{$memprofile['aim']}</a></td>
+</tr>
