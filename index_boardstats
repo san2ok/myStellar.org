@@ -1,0 +1,26 @@
+<table border="0" cellspacing="{$theme['borderwidth']}" cellpadding="{$theme['tablespace']}" class="tborder">
+<thead>
+<tr>
+<td class="thead{$collapsedthead['boardstats']}">
+<div class="expcolimage"><img src="{$theme['imgdir']}/stellarXEDE/collapse{$collapsedimg['boardstats']}.png" id="boardstats_img" class="expander" alt="[-]" title="[-]" /></div>
+<div><strong>{$lang->boardstats}</strong></div>
+</td>
+</tr>
+</thead>
+<tbody style="{$collapsed['boardstats_e']}" id="boardstats_e">
+{$whosonline}
+{$birthdays}
+{$forumstats}
+<tr>
+	<td class="tfoot" style="text-align: right">
+		<span class="smalltext">
+			{$logoutlink}
+			<img src="images/stellarXEDE/varios/ok12.png" /><a href="misc.php?action=markread{$post_code_string}">{$lang->markread}</a>
+			<img src="images/stellarXEDE/varios/team2.png" /><a href="showteam.php">&nbsp;{$lang->forumteam}</a>&nbsp;
+			<img src="images/stellarXEDE/varios/estadisticas5.png" />{$statspage}&nbsp;
+		</span>
+	</td>
+</tr>
+</tbody>
+</table>
+<br />
