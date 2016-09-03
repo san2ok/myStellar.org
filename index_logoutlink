@@ -1,0 +1,1 @@
+<a href="member.php?action=logout&amp;logoutkey={$mybb->user['logoutkey']}"><img src="images/stellarXEDE/varios/salir2.png" /> {$lang->index_logout}</a>
