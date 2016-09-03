@@ -1,0 +1,151 @@
+<html>
+<head>
+<title>{$mybb->settings['bbname']} - {$lang->profile}</title>
+<script type="text/javascript" src="images/stellarXEDE/jscripts/perfiljquery.min.js"></script>
+<script type="text/javascript">
+jQuery.noConflict();
+jQuery(document).ready(function() {
+    jQuery(".pestana_contenido").hide();
+    jQuery("ul.pestanas li:first").addClass("activa").show();
+    jQuery(".pestana_contenido:first").show();
+    jQuery("ul.pestanas li").click(function() {
+        jQuery("ul.pestanas li").removeClass("activa");
+        jQuery(this).addClass("activa");
+        jQuery(".pestana_contenido").hide();
+        var pestanaactiva = jQuery(this).find("a").attr("href");
+        jQuery(pestanaactiva).fadeIn();
+        return false;
+    });
+});
+</script>
+{$headerinclude}
+<script type="text/javascript" src="{$mybb->asset_url}/jscripts/report.js?ver=1800"></script>
+</head>
+<body>
+{$header}
+<br />
+{$awaybit}
+    <div style="float: left; width: 24%;">
+        <table border="0" cellspacing="{$theme['borderwidth']}" cellpadding="6" width="100%">
+            <tr>
+                <td class="avatar1a" align="center" valign="middle" style="font-weight: bold;">
+					<span class="largetext"><strong>{$formattedname}</strong></span><br />
+					<div class="avatarimg2">{$avatar}</div>
+					({$usertitle})<br />
+					{$groupimage}
+					{$userstars}<br />
+					<div class="cajita4">
+					<div class="botones2"><a href="search.php?action=finduserthreads&amp;uid={$uid}" title="{$lang->find_threads}"><img src="images/stellarXEDE/temas1a.png" alt="{$lang->find_threads}" /></a></div>
+                    <div class="botones2"><a href="search.php?action=finduser&amp;uid={$uid}" title="{$lang->find_posts}"><img src="images/stellarXEDE/post1a.png" alt="{$lang->find_posts}" /></a></div>
+                    <div class="botones2"><a href="private.php?action=send&amp;uid={$memprofile['uid']}" title="{$lang->send_pm}"><img src="images/stellarXEDE/varios/profile_pm.png" /></a></div>
+                    <div class="botones2"><a href="member.php?action=emailuser&amp;uid={$memprofile['uid']}" title="{$lang->send_email}"><img src="images/stellarXEDE/varios/profile_email.png" /></a></div>
+					</div>
+				 </td>
+            </tr>
+            <tr>
+                <td class="avatar2a smalltext" style="font-weight: bold;" colspan="2">
+					<div class="recuadro1">{$lang->registration_date} {$memregdate}</div> 
+					<div class="recuadro1">{$lang->date_of_birth} {$membday} {$membdayage}</div>
+					<div class="recuadro1">{$lang->local_time} {$localtime}</div>
+					<div class="recuadro1">{$lang->postbit_status} {$online_status}</div>
+					<br />
+					{$ignore_options}<br />
+					{$report_options}<br />
+                    {$buddy_options}<br />
+                </td>
+            </tr>
+        </table>
+		<br />
+		{$youtube}
+		{$last_visit}
+		{$modoptions}
+	    {$adminoptions}
+        </div>
+        <div style="float: right; width: 75%;">
+            <br />
+            <ul class="pestanas" align="center">
+                <li class=""><a href="#pestana_1">Informatión</a></li>
+				<li class=""><a href="#pestana_2">Contact</a></li>
+				<li class=""><a href="#pestana_3">Signature</a></li>
+				<li class=""><a href="#pestana_4">About me</a></li>
+			</ul>
+            <div class="pestana_contenedor">
+                <div style="display: none;" id="pestana_1" class="pestana_contenido">
+                    <table cellspacing="{$theme['borderwidth']}" cellpadding="{$theme['tablespace']}" width="100%">
+                        <tr>
+                            <td colspan="2" class="thead"><strong>{$lang->users_forum_info}</strong></td>
+                        </tr>
+                        <tr>
+                            <td class="trow1" width="170"><img src="images/stellarXEDE/varios/calendario1.png" /> <strong>{$lang->joined}</strong></td>
+                            <td class="trow1">{$memregdate}</td>
+                        </tr>
+                        <tr>
+                            <td class="trow2"><img src="images/stellarXEDE/varios/calendario2.png" /> <strong>{$lang->lastvisit}</strong></td>
+                            <td class="trow2">{$memlastvisitdate} {$memlastvisittime}</td>
+                        </tr>
+                        <tr>
+                            <td class="trow1"><img src="images/stellarXEDE/post1a.png" alt="{$lang->find_posts}" /> <strong>{$lang->total_posts}</strong></td>
+                            <td class="trow1">{$memprofile['postnum']} ({$lang->ppd_percent_total})<br /><span class="smalltext">(<a href="search.php?action=finduserthreads&amp;uid={$uid}">{$lang->find_threads}</a> &mdash; <a href="search.php?action=finduser&amp;uid={$uid}">{$lang->find_posts}</a>)</span></td>
+                        </tr>
+						<tr>
+							<td class="trow2"><img src="images/stellarXEDE/temas1a.png" alt="{$lang->find_threads}" /> <strong>{$lang->total_threads}</strong></td>
+							<td class="trow2">{$memprofile['threadnum']} ({$lang->tpd_percent_total})<br /><span class="smalltext">(<a href="search.php?action=finduserthreads&amp;uid={$uid}">{$lang->find_threads}</a>)</span></td>
+						</tr>					
+                        <tr>
+                            <td class="trow2"><img src="images/stellarXEDE/varios/reloj1.png" /> <strong>{$lang->timeonline}</strong></td>
+                            <td class="trow2">{$timeonline}</td>
+                        </tr>
+                        {$referrals}
+                        {$reputation}
+                        {$warning_level}
+					</table>
+				</div>
+				<div style="display: block;" id="pestana_2" class="pestana_contenido">
+                   	<table border="0" cellspacing="{$theme['borderwidth']}" cellpadding="{$theme['tablespace']}" width="100%">
+                        <tr>
+                            <td colspan="2" class="thead"><strong>{$lang->users_contact_details}</strong></td>
+                        </tr>
+                        {$website}
+                        {$sendemail}
+                        <tr>
+                            <td class="trow1"><img src="images/stellarXEDE/varios/profile_pm.png" /> <strong>{$lang->pm}</strong></td>
+                            <td class="trow1"><a href="private.php?action=send&amp;uid={$memprofile['uid']}">{$lang->send_pm}</a></td>
+                        </tr>
+<!--//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
+<!--//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
+<!--//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
+
+                        <tr>
+                            <td class="trow1"><img src="images/stellarXEDE/varios/icq3.png" /> <strong>{$lang->icq_number}</strong></td>
+                            <td class="trow1">{$memprofile['icq']}</td>
+                        </tr>
+                        <!--<tr>   /////ini seharusnya adalah AIM di "Configuration-setting-contact details"/////
+                            <td class="trow1"><img src="images/stellarXEDE/varios/steam1.png" /> <strong>STEAM_Profile</strong></td>
+                            <td class="trow1"><img src="http://steamprofile.com/steam/profile/steamprofile/{$memprofile['aim']}.png"</img></td>
+                        </tr>-->
+						
+                        <tr>
+                            <td class="trow1"><img src="images/stellarXEDE/varios/yahoo1.png" /> <strong>{$lang->yahoo_id}</strong></td>
+                            <td class="trow1"><a href="javascript:;" onclick="MyBB.popupWindow('misc.php?action=imcenter&amp;imtype=yahoo&amp;uid={$uid}', 'imcenter', 450, 300);">{$memprofile['yahoo']}</a></td>
+                        </tr>
+                        <tr>
+                            <td class="trow1"><img src="images/stellarXEDE/varios/skype1.png" /> <strong>{$lang->skype_id}</strong></td>
+                            <td class="trow1"><a href="javascript:;" onclick="MyBB.popupWindow('/misc.php?action=imcenter&amp;imtype=skype&amp;uid={$uid}'); return false;">{$memprofile['skype']}</a></td>
+                        </tr>
+						<tr>
+							<td class="trow1"><img src="images/stellarXEDE/varios/googletalk1.png" /> <strong>{$lang->google_id}</strong></td>
+							<td class="trow1">{$memprofile['google']}</td>
+						</tr>
+                    </table>
+                </div>
+                <div style="display: none;" id="pestana_3" class="pestana_contenido">
+                           {$signature}
+				</div>
+				<div style="display: none;" id="pestana_4" class="pestana_contenido">
+				{$profilefields}
+				</div>
+                </div>
+            </div>
+{$footer}
+</body>
+</html>
