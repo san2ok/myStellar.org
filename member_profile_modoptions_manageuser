@@ -1,0 +1,9 @@
+<tr>
+<td class="trow1">
+<ul>
+{$editprofile}
+{$banuser}
+{$purgespammer}
+</ul>
+</td>
+</tr>
