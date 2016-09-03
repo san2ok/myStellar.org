@@ -1,0 +1,4 @@
+<tr>
+	<td class="{$bgcolors['skype']}"><strong>{$lang->skype_id}</strong></td>
+	<td class="{$bgcolors['skype']}"><a href="javascript:;" onclick="MyBB.popupWindow('/misc.php?action=imcenter&amp;imtype=skype&amp;uid={$uid}&amp;modal=1'); return false;">{$memprofile['skype']}</a></td>
+</tr>
