@@ -1,0 +1,1 @@
+<img src="{$displaygroup['image']}" alt="{$usertitle}" title="{$usertitle}" /><br />
