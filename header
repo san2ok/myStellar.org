@@ -1,0 +1,87 @@
+<div id="container">
+		<a name="top" id="top"></a>
+<!--//////////////////////////////////////////////// HEADER BISA ISI IKLAN tepat dibarisan atas MENU Paling atas ////////////////////////////////////////////////////////////-->
+<!--//////////////////////////////////////////////// HEADER BISA ISI IKLAN tepat dibarisan atas MENU Paling atas ////////////////////////////////////////////////////////////-->
+<!--//////////////////////////////////////////////// HEADER BISA ISI IKLAN tepat dibarisan atas MENU Paling atas ////////////////////////////////////////////////////////////-->
+
+<!--xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx HEADER MENU FORUM + HOME + FJB xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx-->
+<!--xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx HEADER MENU FORUM + HOME + FJB xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx-->
+<!--xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx HEADER MENU FORUM + HOME + FJB xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx-->
+	<div id="header">
+	<div class="cabecera-menu-1">	
+		<ul>
+			<li><a href="{$mybb->settings['bburl']}/portal.php"><img src="images/stellarXEDE/portaljamps1.png" alt="Portal" /> HOME </a></li>
+			<li><a href="{$mybb->settings['bburl']}/index.php"><img src="images/stellarXEDE/forojamps1.png" alt="Forum" /> FORUM</a></li>
+			<li><a href="{$mybb->settings['bburl']}/forum-29.html"><img src="images/stellarXEDE/temas1a.png" alt="BLOG" /> MARKET + Jobs board</a></li>	
+			
+			<li><a href="{$mybb->settings['bburl']}/calendar.php"><img src="" alt="" />   |   </a></li>
+<!--			<li><a href="{$mybb->settings['bburl']}/calendar.php"><img src="images/stellarXEDE/calendariojamps1.png" alt="Calendar" /> CALENDAR</a></li>-->
+			
+			<li><a href="{$mybb->settings['bburl']}/search.php"><img src="images/stellarXEDE/varios/buscar.png" alt="Search" /> Search</a></li>
+			<li><a href="{$mybb->settings['bburl']}/calendar.php"><img src="" alt="" />   |   </a></li>
+			
+			<li><a href="{$mybb->settings['bburl']}/stats.php"><img src="images/stellarXEDE/ayudajamps1.png" alt="Forum Statistic" /> Community <img src="images/stellarXEDE/varios/flechitamenu.gif" alt=">" /></a>
+				<ul>
+				  <li><a href="{$mybb->settings['bburl']}/memberlist.php"><img src="images/stellarXEDE/miembros1a.png" alt="Members" /> Members</a></li>
+				  <li><a href="{$mybb->settings['bburl']}/stats.php"><img src="images/stellarXEDE/varios/estadisticas5.png" alt="Forum Statistics" /> ForumStatistics</a></li>
+				  <li><a href="{$mybb->settings['bburl']}/showteam.php"><img src="images/stellarXEDE/varios/team2.png" alt="Forum Team" /> Forum Team</a></li>
+				</ul>
+			</li>
+<!-- HELP menu dll -->
+			<li><a href="{$mybb->settings['bburl']}/misc.php?action=help"><img src="images/stellarXEDE/ayudajamps1.png" alt="Help" /> Help <img src="images/stellarXEDE/varios/flechitamenu.gif" alt=">" /></a>
+				<ul>
+				  <li><a href="{$mybb->settings['bburl']}/misc.php?action=help"><img src="images/stellarXEDE/ayudajamps1.png" alt="Help" /> Help</a></li>
+				  <li><a href="{$mybb->settings['bburl']}/search.php?action=getdaily"><img src="images/stellarXEDE/varios/chatjamps2.png" alt="Mensajes de Hoy" />Todays Posts</a></li>
+				  <li><a href="{$mybb->settings['bburl']}/search.php?action=getnew"><img src="images/stellarXEDE/varios/chatjamps3.gif" alt="Mensajes Nuevos">{$lang->welcome_newposts}</a></li>
+				  <li><a href="https://www.mystellar.org/search.php?action=results&sid=471329359d86bd47461b57ca562fd45d"><img src="images/stellarXEDE/ayudajamps1.png" alt="Help" /> New Content</a></li>
+				  </ul>
+			</li>
+		</ul>
+		</div>	
+<!--xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx HEADER MENU Kanan, ICON xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx-->
+<!--xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx HEADER MENU Kanan, ICON xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx-->
+<!--xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx HEADER MENU Kanan, ICON xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx-->
+		<div class="cabecera-menu-2">	
+		<ul>
+			<li><a href="https://www.facebook.com/stellarfoundation" target="_blank"><img src="images/stellarXEDE/varios/fbmenu1.png" title="https://www.facebook.com/stellarfoundation" /></a></li>
+			<li><a href="https://twitter.com/stellarorg" target="_blank"><img src="images/stellarXEDE/varios/twittermenu1.png" title="https://twitter.com/stellarorg" /></a></li>
+			<li><a href="https://www.youtube.com/channel/UC4BrVpvKK0r2zP9xVFQcPSA/playlists" target="_blank"><img src="images/stellarXEDE/varios/youtubemenu1.png" title="Youtube Stellar.org Foundation URL" /></a></li>
+			<li><a href="https://plus.google.com/113406058320669632404" target="_blank"><img src="images/stellarXEDE/varios/googlemenu1.png" title="Stellar.org Foundation" /></a></li>
+		</ul>
+		</div>
+<!-- /////////////////////// LOGO UTAMA adalah BANNER, untuk ganti banner ada di "edit theme properties"di "Board Logo" \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\-->
+<!-- /////////////////////// LOGO UTAMA adalah BANNER, untuk ganti banner ada di "edit theme properties"di "Board Logo" \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\-->
+	<div id="logo">
+		<div>
+			<a href="{$mybb->settings['bburl']}/portal.php"><img src="{$theme['logo']}" width="100%" height="250px" alt="{$mybb->settings['bbname']}" title="{$mybb->settings['bbname']}" /></a>
+		</div>
+	</div>
+		<div id="panel">
+			<div class="upper">				
+				<div class="wrapper">
+					{$quicksearch}
+					{$welcomeblock}
+					<!-- </div> in header_welcomeblock_member and header_welcomeblock_guest -->
+				<!-- </div> in header_welcomeblock_member and header_welcomeblock_guest -->
+		</div>
+		</div>
+		<div id="content">
+			<div class="wrapper">
+				{$pm_notice}
+				{$bannedwarning}
+				{$bbclosedwarning}
+				{$unreadreports}
+				{$pending_joinrequests}
+				{$awaitingusers}
+				<navigation>
+				<br /> <!-- BR adalah tag SINGLE BREAK, atau SPASI-->
+					
+				<div align="center">
+<!--//////////////////////////////////////////////// HEADER BISA ISI IKLAN tepat dibawah login, dan diatas directory "Navigation" //////////////////////////////////////////////////-->
+<!--//////////////////////////////////////////////// HEADER BISA ISI IKLAN tepat dibawah login, dan diatas directory "Navigation" //////////////////////////////////////////////////-->
+<!--//////////////////////////////////////////////// HEADER BISA ISI IKLAN tepat dibawah login, dan diatas directory "Navigation" //////////////////////////////////////////////////-->
+					<!--############################################ Google ADS 1 #####################################################-->
+					
+					
+					
+				</div>
