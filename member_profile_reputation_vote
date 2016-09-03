@@ -1,0 +1,1 @@
+[<a href="javascript:MyBB.reputation({$memprofile['uid']});">{$lang->reputation_vote}</a>]
