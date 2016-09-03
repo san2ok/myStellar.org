@@ -1,0 +1,4 @@
+<tr>
+	<td class="{$bgcolors['yahoo']}"><strong>{$lang->yahoo_id}</strong></td>
+	<td class="{$bgcolors['yahoo']}"><a href="javascript:;" onclick="MyBB.popupWindow('/misc.php?action=imcenter&amp;imtype=yahoo&amp;uid={$uid}&amp;modal=1'); return false;">{$memprofile['yahoo']}</a></td>
+</tr>
