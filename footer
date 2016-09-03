@@ -1,0 +1,104 @@
+<!--############################################ Google ADS FOOTER #####################################################-->
+					<!-- <div style="text-align: center;">
+						<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script> -->
+						<!-- Large Leaderboard - FOOTER -->
+					<!--	<ins class="adsbygoogle"
+     					style="display:inline-block;width:970px;height:90px"
+     					data-ad-client="ca-pub-4252012000978148"
+     					data-ad-slot="4005249315"></ins>
+						<script>
+						(adsbygoogle = window.adsbygoogle || []).push({});
+						</script>
+					</div> -->
+
+
+</div>
+</div>
+<!-- /////////////////////////////////////////// FOOTER - ALL //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////// FOOTER - ALL //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////// FOOTER - ALL //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
+
+	<!-- /////////////////////////////////////////// FOOTER Column 1 ///////////////////////////////////////////////////////-->
+	<!-- /////////////////////////////////////////// FOOTER Column 1 ///////////////////////////////////////////////////////-->
+<!--<div id="foot">
+			 <div class="col">
+			<h3 class="thead">About STELLAR.ORG</h3>
+			<ul>
+			<li><a href="https://github.com/stellar/stellar-core" target="_blank">Stellar Core</a></li>
+			<li><a href="https://github.com/stellar/stellar-core" target="_blank">Stellar Core</a></li>
+			<li>My Link 3</li>
+			<li>My Link 4</li>
+			</ul>
+			</div>
+			<div class="col">
+			<h3 class="thead">Community and Help</h3>
+			<ul>
+			<li>My Link 1</li>
+			<li>My Link 2</li>
+			<li>My Link 3</li>
+			<li>My Link 4</li>
+			</ul> 
+			</div>-->
+	<!-- /////////////////////////////////////////// FOOTER Column 2 ///////////////////////////////////////////////////////-->
+	<!-- /////////////////////////////////////////// FOOTER Column 2 ///////////////////////////////////////////////////////-->
+<!--			<div class="col2">
+			<h3 class="thead">Social Links</h3>
+			<div align="center">
+			<a href="https://www.facebook.com/stellarfoundation" target="_blank"><img class="imgefecto1" src="images/stellarXEDE/fbjamps1.png"  title="https://www.facebook.com/stellarfoundation"/></a>&nbsp &nbsp 
+			<a href="https://twitter.com/stellarorg" target="_blank"><img class="imgefecto1" src="images/stellarXEDE/twjamps1.png"  title="https://twitter.com/stellarorg"/></a>
+			&nbsp &nbsp 
+			<a href="https://www.youtube.com/channel/UC4BrVpvKK0r2zP9xVFQcPSA/playlists" target="_blank"><img class="imgefecto1" src="images/stellarXEDE/youtubejamps2.png"  title="Youtube Stellar.org Foundation"/></a>&nbsp &nbsp 
+			<a href="https://plus.google.com/113406058320669632404" target="_blank"><img class="imgefecto1" src="images/stellarXEDE/googlejamps1.png"  title="Stellar.org Foundation"/></a>&nbsp &nbsp 
+			</div>	
+			</div>
+			</div>-->
+
+	<!-- /////////////////////////////////////////// FOOTER contact us, dll ////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
+	<!-- /////////////////////////////////////////// FOOTER contact us, dll ////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
+<div id="footer">
+	<div class="upper">
+		<div class="wrapper">
+			{$lang_select}
+			{$theme_select}
+			<ul class="menu bottom_links">
+				<li><a href="https://www.stellar.org" target="_blank">STELLAR.org</a></li>
+				<!--<li><a href="{$mybb->settings['homeurl']}">{$mybb->settings['homename']}</a></li>-->
+				<li><a>|</a></li>
+				<li><a href="#top">| {$lang->bottomlinks_returntop} |</a></li>												<!-- ////////////// INI RETURN TO TOP ////////////-->
+				<li><a>|</a></li>
+				<li><a href="<archive_url>">{$lang->bottomlinks_litemode}</a></li>
+				<li><a href="{$mybb->settings['bburl']}/misc.php?action=syndication">{$lang->bottomlinks_syndication}</a></li>
+			</ul>
+		</div>
+	</div>
+	<!-- /////////////////////////////////////////// FOOTER LOWER WRAPPER kanan ///////////////////////////////////////////////////////-->
+	<!-- /////////////////////////////////////////// FOOTER LOWER WRAPPER kanan ///////////////////////////////////////////////////////-->
+	<div class="lower">
+		<div class="wrapper">
+			<span id="current_time">Support <a href="http://www.bitxplor.com" title="BitXplor, we make transfer easy" target="_blank">BitXplor</a>
+						| <a href="{$mybb->settings['homeurl']}">{$mybb->settings['homename']}</a>
+				<!-- | <a href="http://www.niagahoster.co.id" title="the hosting we use" target="_blank">Niagahoster</a> --> 
+						| {$lang->welcome_current_time}</span>
+			
+	<!-- /////////////////////////////////////////// FOOTER LOWER WRAPPER kiri ///////////////////////////////////////////////////////-->
+	<!-- /////////////////////////////////////////// FOOTER LOWER WRAPPER kiri ///////////////////////////////////////////////////////-->
+			{$contact_us}
+			<span id="copyright">
+				
+				<!-- MyBB is free software developed and maintained by a volunteer community.
+					It would be much appreciated by the MyBB Group if you left the full copyright and "powered by" notice intact,
+					to show your support for MyBB.  If you choose to remove or modify the copyright below,
+					you may be refused support on the MyBB Community Forums.
+
+					This is free software, support us and we'll support you. -->
+				{$lang->powered_by} <a href="http://www.mybb.com" target="_blank">MyBB{$mybbversion}</a>, &copy; 2002-{$copy_year}
+				<!-- End powered by -->
+				</span>
+			<!--<span class="smalltext">
+					| Created by <a href="https://www.rusunku.co.id/portal.php" title="www.rusunku.co.id" target="_blank">XEDE+san2ok</a></span> -->
+		</div>
+	</div>
+</div>
+<!-- The following piece of code allows MyBB to run scheduled tasks. DO NOT REMOVE -->{$task_image}<!-- End task image code -->
+{$auto_dst_detection}
+</div>
