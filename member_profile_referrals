@@ -1,0 +1,4 @@
+<tr>
+<td class="{$bg_color}"><img src="images/stellarXEDE/varios/referidos1.png" /> <strong>{$lang->members_referred}</strong></td>
+<td class="{$bg_color}">{$memprofile['referrals']}</td>
+</tr>
