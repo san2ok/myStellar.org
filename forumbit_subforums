@@ -1,0 +1,1 @@
+<br />{$lang->subforums}<br /><ul class="subforosencolumnas">{$sub_forums}</ul>
