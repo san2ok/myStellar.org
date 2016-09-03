@@ -1,0 +1,14 @@
+<tr><td class="tcat"><span class="smalltext"><img src="{$theme['imgdir']}/stellarXEDE/estadisticas1a.png" alt="{$lang->boardstats}" title="{$lang->boardstats}" /> <strong>{$lang->boardstats}</strong></span></td></tr>
+<tr>
+<td class="trow1">
+<div style="text-align: center;">
+<strong>
+<img src="{$theme['imgdir']}/stellarXEDE/temas1a.png" alt="{$lang->boardstats}" title="{$lang->boardstats}" /> Topics<span class="contador1a">{$stats['numthreads']}</span>&nbsp;
+<img src="{$theme['imgdir']}/stellarXEDE/post1a.png" alt="{$lang->boardstats}" title="{$lang->boardstats}" /> Posts<span class="contador1a">{$stats['numposts']}</span>&nbsp;
+<img src="{$theme['imgdir']}/stellarXEDE/miembros1a.png" alt="{$lang->boardstats}" title="{$lang->boardstats}" /> Members<span class="contador1a">{$stats['numusers']}</span>&nbsp;
+<img src="{$theme['imgdir']}/stellarXEDE/estadisticas2a.png" alt="{$lang->boardstats}" title="{$lang->boardstats}" /> <span title="{$recorddate}, {$recordtime}">Most Online<span class="contador1a">{$mostonline['numusers']}</span></span>&nbsp;
+<img src="{$theme['imgdir']}/stellarXEDE/nuevomiembro1a.png" alt="{$lang->boardstats}" title="{$lang->boardstats}" /> Newest registered<span class="contador1a">$newestmember</span>
+</strong>
+</div>
+</td>
+</tr>
