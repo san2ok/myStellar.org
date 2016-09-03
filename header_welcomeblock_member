@@ -1,0 +1,32 @@
+<!-- AVATAR di HEADER-->
+<div class="cabecera_recuadro2">
+	<table class="cabecera_recuadro6">
+	  <tr>
+		<th class="cabecera_recuadro6"><a href="{$mybb->settings['bburl']}/member.php?action=profile&uid={$mybb->user['uid']}"><img src="{$mybb->user['avatar']}" class="cabecera_recuadro6_ima" /></a></th>
+		<!--<th class="cabecera_recuadro6">{$lang->welcome_back} dipindah ke upper search menu -->
+		  
+		</th>
+	  </tr>
+	</table>
+	</div>
+<!-- Continuation of div(class="upper") as opened in the header template -->
+	</div>
+</div>
+<div class="lower">
+	<div class="wrapper">
+		<ul class="menu user_links"> <!--Menu USER -->
+			<th class="cabecera_recuadro7">{$lang->welcome_back}<!-- welcomeback "username"--></th>  <!-- DIPINDAH dari atas-->
+			
+ 		
+
+
+		</ul><!-- LOGOUT -->
+		<ul class="menu panel_links">
+			<a rel="nofollow" class="logout"  href="{$mybb->settings['bburl']}/member.php?action=logout&amp;logoutkey={$mybb->user['logoutkey']}"><img src="images/stellarXEDE/varios/salir2.png" /> {$lang->welcome_logout}</a> 	 
+			<li><a href="{$mybb->settings['bburl']}/usercp.php" class="usercp">{$lang->welcome_usercp}</a></li>
+			{$modcplink}
+			{$admincplink}
+		</ul>
+	</div>
+	<br class="clear" />
+</div>
