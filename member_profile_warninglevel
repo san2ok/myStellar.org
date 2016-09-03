@@ -1,0 +1,4 @@
+<tr>
+	<td class="{$bg_color}"><img src="images/stellarXEDE/varios/warning1.png" /> <strong>{$lang->warning_level}</strong></td>
+	<td class="{$bg_color}"><a href="{$warning_link}">{$warning_level}</a> {$warn_user}</td>
+</tr>
