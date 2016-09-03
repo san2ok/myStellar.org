@@ -1,0 +1,1 @@
+<div class="red_alert"><a href="{$mybb->settings['bburl']}/modcp.php?action=reports">{$lang->unread_reports}</a></div>
