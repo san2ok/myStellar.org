@@ -1,0 +1,1 @@
+[<a href="javascript:MyBB.viewNotes({$memprofile['uid']});">{$lang->view_all_notes}</a>]
