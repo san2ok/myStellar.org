@@ -1,0 +1,4 @@
+<tr>
+	<td class="{$bgcolor}"><img src="images/stellarXEDE/varios/internet3.png" /> <strong>{$lang->homepage}</strong></td>
+	<td class="{$bgcolor}"><a href="{$memprofile['website']}" target="_blank">{$memprofile['website']}</a></td>
+</tr>
