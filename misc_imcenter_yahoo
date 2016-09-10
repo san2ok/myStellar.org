@@ -1,0 +1,23 @@
+<div class="modal">
+<div style="overflow-y: auto; max-height: 400px;">
+<table width="100%" cellspacing="{$theme['borderwidth']}" cellpadding="{$theme['tablespace']}" border="0" align="center" class="tborder">
+<tr>
+<td class="thead" align="center"><strong>{$user['username']} - {$lang->yahoo_center}</strong></td>
+</tr>
+<tr>
+<td class="tcat" align="center"><span class="smalltext"><strong>{$navigationbar}</strong></span></td>
+</tr>
+<tr>
+<td class="trow1" align="center" colspan="2"><strong>{$user['yahoo']}</strong></td>
+</tr>
+<tr>
+<td class="trow1" align="center" colspan="2"><strong><img src="http://opi.yahoo.com/online?u={$user['yahoo']}&amp;m=g&amp;t=2" /></strong></td>
+</tr>
+<tr>
+<td class="trow1" align="center" colspan="2"><span class="smalltext"><a href="http://edit.yahoo.com/config/send_webmesg?.target={$user['yahoo']}&amp;.src=pg">{$lang->send_y_message}</a></span></td>
+</tr><tr>
+<td class="trow1" align="center" colspan="2"><span class="smalltext"><a href="http://members.yahoo.com/interests?.oc=t&amp;.kw={$user['yahoo']}&amp;.sb=1">{$lang->view_y_profile}</a></span></td>
+</tr>
+</table>
+</div>
+</div>
