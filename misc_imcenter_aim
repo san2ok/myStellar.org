@@ -1,0 +1,31 @@
+<div class="modal">
+<div style="overflow-y: auto; max-height: 400px;">
+<table width="100%" cellspacing="{$theme['borderwidth']}" cellpadding="{$theme['tablespace']}" border="0" align="center" class="tborder">
+<tr>
+<td class="thead" align="center" colspan="2"><strong>{$user['username']} - {$lang->aim_center}</strong></td>
+</tr>
+<tr>
+<td class="tcat" align="center" colspan="2"><span class="smalltext"><strong>{$navigationbar}</strong></span></td>
+</tr>
+<tr>
+<td class="trow2">
+<!-- Begin AIM Remote -->
+<table align="center" cellspacing="0" cellpadding="0" border="0">
+<tr>
+<td align="center" style="white-space: nowrap"><a href="http://www.aim.com/"><img src="http://info.aol.co.uk/aim/remote/gr/aimver_man.gif" width="44" height="55" alt="{$lang->download_aim}" title="{$lang->download_aim}" /></a><img src="http://info.aol.co.uk/aim/remote/gr/aimver_topsm.gif" width="73" height="55" alt="{$lang->aim_remote}" title="{$lang->aim_remote}" /></td>
+</tr>
+<tr>
+<td align="center" style="white-space: nowrap"><a href="aim:goim?screenname={$user['aim']}&amp;message=Hi.+Are+you+there?"><img src="http://info.aol.co.uk/aim/remote/gr/aimver_im.gif" width="117" height="39" alt="{$lang->send_me_instant}" title="{$lang->send_me_instant}" /></a></td>
+</tr>
+<tr>
+<td align="center" style="white-space: nowrap"><a href="aim:addbuddy?screenname={$user['aim']}"><img src="http://info.aol.co.uk/aim/remote/gr/aimver_bud.gif" width="117" height="39" alt="{$lang->add_me_buddy_list}" title="{$lang->add_me_buddy_list}" /></a></td>
+</tr>
+<td align="center" style="white-space: nowrap"><a href="http://www.aim.com/"><img src="http://info.aol.co.uk/aim/remote/gr/aimver_botdow.gif" width="117" height="29" alt="{$lang->download_aol_im}" title="{$lang->download_aol_im}" /></a></td>
+</tr>
+</table>
+<!-- End AIM Remote -->
+</td>
+</tr>
+</table>
+</div>
+</div>
