@@ -1,0 +1,1 @@
+{$navsep}<a href="javascript:;" onclick="MyBB.popupWindow('/misc.php?action=imcenter&amp;imtype={$imtype}&amp;uid={$uid}&amp;modal=1'); return false;">{$imtype_lang}</a>
