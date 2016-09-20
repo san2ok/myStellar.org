@@ -1,0 +1,5 @@
+<fieldset class="navegacion1">
+	<span class="nav2">{$nav}{$activesep}
+		<span class="nav1">{$activebit}</span>
+	</span>
+</fieldset>
