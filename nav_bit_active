@@ -1,0 +1,6 @@
+<a href="{$navbit['url']}" class="nav2">
+	{$navbit['name']}
+</a>
+<span class="arrow">
+	<span>&gt;</span>
+</span>
