@@ -1,0 +1,4 @@
+<div class="recuadro1">{$lang->postbit_posts} {$post['postnum']}</div>
+<div class="recuadro1">{$lang->postbit_threads} {$post['threadnum']}</div>
+<div class="recuadro1">{$lang->postbit_joined} {$post['userregdate']}</div>
+<div class="recuadro1">{$post['replink']}{$post['profilefield']}{$post['warninglevel']}</div>
