@@ -1,0 +1,3 @@
+<a href="attachment.php?aid={$attachment['aid']}" target="_blank"><img src="attachment.php?thumbnail={$attachment['aid']}" class="attachment" alt="" title="{$lang->postbit_attachment_filename} {$attachment['filename']}
+{$lang->postbit_attachment_size} {$attachment['filesize']}
+{$attachdate}" /></a>&nbsp;&nbsp;&nbsp;
