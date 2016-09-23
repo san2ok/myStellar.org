@@ -1,0 +1,1 @@
+<a href="javascript:Report.reportPost({$post['pid']});" title="{$lang->postbit_report}" class="postbit_report"><span>{$lang->postbit_button_report}</span></a>
