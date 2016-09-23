@@ -1,0 +1,7 @@
+<br />
+<fieldset class="firma1">
+<legend class="firma2">
+<span class="smalltext">
+<strong>Signing of {$post['username']}</strong></span></legend>
+ {$post['signature']}
+</fieldset>
