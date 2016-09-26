@@ -1,0 +1,20 @@
+<tr id="captcha_trow">
+<td class="trow1" valign="top"><strong>{$lang->image_verification}</strong></td>
+<td class="trow1">
+<script type="text/javascript">
+<!--
+	var RecaptchaOptions = {
+		theme: 'clean'
+	};
+// -->
+</script>
+<table style="width: 300px; padding: 4px;">
+	<tr>
+		<td><span class="smalltext">{$lang->verification_note}</span></td>
+	</tr>
+	<tr>
+		<td><script type="text/javascript" src="{$server}/challenge?k={$public_key}"></script></td>
+	</tr>
+</table>
+</td>
+</tr>
