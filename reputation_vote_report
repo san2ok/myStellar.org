@@ -1,0 +1,4 @@
+		<div class="float_right postbit_buttons">
+			<a href="javascript:Report.reportReputation({$reputation_vote['rid']});" class="postbit_report"><span>{$lang->report_vote}</span></a>
+		</div>
+		
