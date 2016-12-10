@@ -1,0 +1,1 @@
+<div class="float_right" style="padding-bottom: 4px;"><a href="javascript:MyBB.reputation({$user['uid']});" class="button rate_user_button"><span>{$lang->rate_user}</span></a></div>
