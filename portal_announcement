@@ -1,0 +1,8 @@
+<div class="bloqueportal1">
+<div class="thead"><a href="{$mybb->settings['bburl']}/{$announcement['threadlink']}"><strong>{$announcement['subject']}</strong></a>
+</div>
+<div style="text-align: left;">
+	<div class="bloqueportal2">{$message}</div>
+<center><div class="recuadro1"><strong><a href="{$mybb->settings['bburl']}/{$announcement['threadlink']}"><img src="images/stellarXEDE/varios/leermas1a.png" alt="Read More" title="Read More"/> Read More / Comment <img src="images/stellarXEDE/varios/comentar1a.png" alt="Comment" title="Comment"/></a></strong></div></center>	
+</div>
+</div>

@@ -1,0 +1,18 @@
+<table border="0" cellspacing="{$theme['borderwidth']}" cellpadding="{$theme['tablespace']}" class="tborder">
+<tr>
+<td class="thead"><strong>{$lang->forum_stats}</strong></td>
+</tr>
+<tr>
+<td class="trow1">
+<span class="smalltext">
+<div class="recuadro1"><img src="images/stellarXEDE/miembros1a.png" alt="{$lang->num_members}" title="{$lang->num_members}"/><strong>&raquo; </strong>{$lang->num_members} {$stats['numusers']}</div>
+<div class="recuadro1"><img src="images/stellarXEDE/nuevomiembro1a.png" alt="{$lang->latest_member}" title="{$lang->latest_member}"/><strong>&raquo; </strong>{$lang->latest_member} {$newestmember}</div>
+<div class="recuadro1"><img src="images/stellarXEDE/temas1a.png" alt="{$lang->num_threads}" title="{$lang->num_threads}"/><strong>&raquo; </strong>{$lang->num_threads} {$stats['numthreads']}</div>
+<div class="recuadro1"><img src="images/stellarXEDE/post1a.png" alt="{$lang->num_posts}" title="{$lang->num_posts}"/><strong>&raquo; </strong>{$lang->num_posts} {$stats['numposts']}</div>
+<br />
+<center><img src="images/stellarXEDE/varios/estadisticas5.png" alt="{$lang->full_stats}" title="{$lang->full_stats}"/> <a href="{$mybb->settings['bburl']}/stats.php">{$lang->full_stats}</a></center>
+</span>
+</td>
+</tr>
+</table>
+<br />

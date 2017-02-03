@@ -1,0 +1,9 @@
+<div class="avatarimg2" valign="middle" align="center"> <img src="{$mybb->user['avatar']}" alt="{$mybb->user['username']}'s avatar" title="{$mybb->user['username']}'s avatar"></div><br />
+<div class="recuadro1"><span class="smalltext" align="center"> {$lang->member_welcome_lastvisit} {$lastvisit}<br />
+{$lang->since_then}</div>
+<div class="recuadro1"><strong>&raquo;</strong> {$lang->new_announcements}</div>
+<div class="recuadro1"><strong>&raquo;</strong> {$lang->new_threads}</div>
+<div class="recuadro1"><strong>&raquo;</strong> {$lang->new_posts}</div>
+<div class="recuadro1"><a href="{$mybb->settings['bburl']}/search.php?action=getnew">{$lang->view_new}</a></div>
+<div class="recuadro1"><a href="{$mybb->settings['bburl']}/search.php?action=getdaily">{$lang->view_todays}</a></div>
+</span>
